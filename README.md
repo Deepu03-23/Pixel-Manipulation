@@ -6,17 +6,25 @@ This is a simple Python script that performs image encryption and decryption usi
 
 Your script performs image encryption and decryption using a bitwise XOR operation on each pixel's color values. Here's how:
 
-1. User Input (CLI)
+......User Input (CLI)
 
-The script first asks the user:
+2. The script first asks the user:
 
-Whether they want to encrypt or decrypt (E or D)
+3. Whether they want to encrypt or decrypt (E or D)
 
-The path of the input image file
+4. The path of the input image file
 
-The desired output image file name
+5. The desired output image file name
 
-A numeric key (between 0 and 255)
+6. A numeric key (between 0 and 255)
 
-This key will be used for the XOR operation.
+7. This key will be used for the XOR operation.
+
+.....Opening and Preparing the Image
+
+.....Accessing Pixels
+
+.....XOR Pixel Manipulation
+
+.....Saving the Result
 
